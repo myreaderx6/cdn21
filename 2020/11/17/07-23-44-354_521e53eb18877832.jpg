@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<title>BLOGTIMES｜ブロガーリレーションサービス</title>
+<meta name="description" content="BLOGTIMES は、ブログ運営者と企業をつなぐ素敵な”体験プレゼント”サイトです" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, nofollow" />
+<meta http-equiv="Content-Type"         content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type"  content="text/JavaScript" />
+<meta http-equiv="Content-Style-Type"   content="text/css" />
+
+<style>
+<!-- CSS の記述 -->
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #464948;
+    background-color: #F7F8F9;
+}
+#header{
+
+}
+
+#header [class^=header]{
+    float: left;
+    padding-top: 6px;
+    height: 32px;
+}
+
+#header .header-1{
+    background: #1253A5;
+    width: 100%;
+}
+
+.l-basic-header {
+    background-color: #43BFA0;
+    width: 100%;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 501;
+}
+.l-layout {
+    height: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.l-layout__main__body {
+    padding-top: 60px;
+}
+.l-layout__main__body__inner {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+.mt-5 {
+    margin-top: 8.4rem !important;
+}
+.mb-4 {
+    margin-bottom: 6.3rem !important;
+}
+.p-result__title {
+    margin-top: 1em;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1253A5;
+    text-align: center;
+}
+.p-result__text {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.te-article-page {
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 1em 2em 1em;
+}
+
+.te-article-page__table tr:last-child th, .te-article-page__table tr:last-child td {
+    border-bottom: none;
+}
+
+.te-article-page__table tr th {
+    width: 27%;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: none;
+    padding-right: 0.5em;
+}
+
+.te-article-page__table tr th, .te-article-page__table tr td {
+    border: none;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(24,29,40,0.07);
+}
+
+@media (min-width: 1200px)
+.te-cms-body table td, .te-cms-body table th {
+    border: 1px solid rgba(24,29,40,0.07);
+    padding: .66667em .66667em;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.article-page__table tr:last-child td {
+    border-bottom: none;
+}
+
+.te-article-page__table tr td {
+    background-color: transparent;
+    box-shadow: none;
+    padding-left: 1em;
+}
+
+.te-article-page__table tr th, .te-article-page__table tr td {
+    border: none;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(24,29,40,0.07);
+}
+
+.te-cms-body table td, .te-cms-body table th {
+    padding: .66667em .66667em;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+.te-cms-body table td {
+    font-size: 1em;
+}
+
+.te-cms-body a:visited {
+    color: #181D28;
+    font-weight: bold;
+    text-decoration: none;
+}
+.te-cms-body a:visited {
+    color: #181D28;
+    font-weight: bold;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<div id="container">
+
+  <div id="header" class="clearfix">
+      <div class="header-1"></div>
+      </div>
+  </div>
+    <div class="l-layout">
+      <div class="l-layout__main__body">
+        <div class="l-layout__main__body__inner">
+          <div class="l-layout__main__body__content">
+            <div class="p-result mt-5 mb-4">
+              <div class="p-result__title">
+                【重要】BLOGTIMES サービス終了のお知らせ
+              </div>
+              <div class="p-result__text">
+                平素はご利用いただき誠にありがとうございます。<br>
+                <br>
+                ブロガーリレーションサービス「BLOGTIMES」につきまして、<br>
+                2020年1月15（水）をもちましてサービスを終了させていただくこととなりました。<br>
+                <br>
+                ■サービス終了日　2020年1月15（水）<br>
+                <br>
+                ご利用のお客様には、大変ご迷惑をおかけいたしますが、<br>
+                何卒ご理解いただきますようよろしくお願い申し上げます。<br>
+                <br>
+                長らくのご愛顧、誠にありがとうございました。<br>
+                <br>
+                BLOGTIMES事務局
+              </div>
+            </div>
+            <section class="te-section">
+    <div class="te-section__body">
+      <div class="te-article-page">
+      <div class="te-article-page__body te-cms-body">
+        <table class="te-article-page__table">
+          <tbody>
+            <tr>
+              <th>レコメンド</th>
+              <td>
+                <p style="margin-top: 0;"><a href="https://prtimes.jp/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> プレスリリリース配信ならPR TIMES</a></p>
+                <p><a href="https://www.jooto.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> 無料タスク管理・プロジェクト管理ツールならJooto</a></p>
+                <p><a href="https://tayori.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> 無料フォームならTayori</a></p>
+                <p><a href="https://thebridge.jp/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> テクノロジー系ニュースを配信するブログメディアBRIDGE</a></p>
+                <p><a href="https://isuta.jp/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>“おしゃれ、かわいい、しあわせ”なニュースを配信するisuta</a></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
+  </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+<script>(function(t,a,y,o,r,i){r=a.createElement(y),i=a.getElementsByTagName(y)[0];r.type='text/javascript';r.async=1;r.src='//tayori.com/form/57dd40bfee006c5c0ad455f078c546bb4f16497f/tag.js';r.id='tayori-tag';i.parentNode.insertBefore(r,i)})(window,document,'script');</script>
+</body>
+</html>
